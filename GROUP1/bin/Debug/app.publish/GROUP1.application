@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xrml="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <assemblyIdentity name="GROUP1.application" version="1.0.0.5" publicKeyToken="3033b42acee01fcc" language="neutral" processorArchitecture="x86" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <description asmv2:publisher="GROUP1" asmv2:product="GROUP1" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <deployment install="true" mapFileExtensions="true">
+    <subscription>
+      <update>
+        <beforeApplicationStartup />
+      </update>
+    </subscription>
+    <deploymentProvider codebase="http://ladroma_family/GROUP1/GROUP1.application" />
+  </deployment>
+  <compatibleFrameworks xmlns="urn:schemas-microsoft-com:clickonce.v2">
+    <framework targetVersion="4.0" profile="Client" supportedRuntime="4.0.30319" />
+    <framework targetVersion="4.0" profile="Full" supportedRuntime="4.0.30319" />
+  </compatibleFrameworks>
+  <dependency>
+    <dependentAssembly dependencyType="install" codebase="Application Files\GROUP1_1_0_0_5\GROUP1.exe.manifest" size="6804">
+      <assemblyIdentity name="GROUP1.exe" version="1.0.0.5" publicKeyToken="3033b42acee01fcc" language="neutral" processorArchitecture="x86" type="win32" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>ABGGYoo9q9m4l+g6ZAbBkBg7pnY=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+<publisherIdentity name="CN=Ladroma_Family\DAELIN_PROUDMOORE" issuerKeyHash="48b7b2e9a4e5248ce026cbbb0ab1b7758637ed2f" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>ppLkU3CWAYZjZ7TnlBktnWAip1U=</DigestValue></Reference></SignedInfo><SignatureValue>JiGXrtVmusGW68SWDj5xx+bnrsNjIK2skho+llA6cb0ykvOYIXMZQ7tCVM+5o0stldVQYvMWUNdL56YwC4/90EkWQJoOUrhXapqTf1Jsm3gELBYNpiYdP/3yzsA/7EAx72TCNl1t4o+c0N+vr+GTpF+ntQT+Le9rb1cd3NErY3g=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>w+DkwrSHSY7Ciml0tcgYZjfEtTmt1N+AK57QA44g8p5VrnKAlG+IMKrVXuQJc7lQCSXHHmaZS1BeE035R2x4GaNP2woqlRkCBHI2+yY+ZAvB6pTEzp6FG8zpwbpCc6e3eMEwV5p2PKGtZ+9pSNynJINlgbDY1FI1lGbz8fXHVOE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="55a722609d2d1994e7b467638601967053e492a6" Description="" Url=""><as:assemblyIdentity name="GROUP1.application" version="1.0.0.5" publicKeyToken="3033b42acee01fcc" language="neutral" processorArchitecture="x86" xmlns="urn:schemas-microsoft-com:asm.v1" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=Ladroma_Family\DAELIN_PROUDMOORE</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>5Y+1WzsvYvJdAeyJ3/YU7XwHsB8=</DigestValue></Reference></SignedInfo><SignatureValue>Tcg79SDK3EEskQSHHrKX/7HT96dI3fx0m2rjzsTu//VNB8LEoIumPtHNTcLlXVoATDYH8RkZvitsDRd5YPqIvfwvz6dOiuD8q/pf/2v+eNkrzK42uMU2XKt9heL4CiD8vgS8yf//Wiiy2DcZs9pqXLqK4X6GZWeQNOotO9x+xXI=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>w+DkwrSHSY7Ciml0tcgYZjfEtTmt1N+AK57QA44g8p5VrnKAlG+IMKrVXuQJc7lQCSXHHmaZS1BeE035R2x4GaNP2woqlRkCBHI2+yY+ZAvB6pTEzp6FG8zpwbpCc6e3eMEwV5p2PKGtZ+9pSNynJINlgbDY1FI1lGbz8fXHVOE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIICGTCCAYKgAwIBAgIQKlBko8ovSrFIsGjtJQvOsTANBgkqhkiG9w0BAQUFADBLMUkwRwYDVQQDHkAATABhAGQAcgBvAG0AYQBfAEYAYQBtAGkAbAB5AFwARABBAEUATABJAE4AXwBQAFIATwBVAEQATQBPAE8AUgBFMB4XDTE1MTAwOTE2MzU1MVoXDTE2MTAwODIyMzU1MVowSzFJMEcGA1UEAx5AAEwAYQBkAHIAbwBtAGEAXwBGAGEAbQBpAGwAeQBcAEQAQQBFAEwASQBOAF8AUABSAE8AVQBEAE0ATwBPAFIARTCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAw+DkwrSHSY7Ciml0tcgYZjfEtTmt1N+AK57QA44g8p5VrnKAlG+IMKrVXuQJc7lQCSXHHmaZS1BeE035R2x4GaNP2woqlRkCBHI2+yY+ZAvB6pTEzp6FG8zpwbpCc6e3eMEwV5p2PKGtZ+9pSNynJINlgbDY1FI1lGbz8fXHVOECAwEAATANBgkqhkiG9w0BAQUFAAOBgQB30cAiXeL5oLDu5jhXzXOtdu5oF9Ue3s4XCKVvEm9osG8iNP+tFIJG6htbbUIoEjIH41/6z7kZwKkdmnFgHHBZqdfsWZ+taKpePvwvwxJhy7xF9VJ3FzMG/fhZBapp4uyebD1vC80Ba+5731d4wk4BkTPUWlppcAv+TUhGZPWEWA==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
